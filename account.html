@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Account</title>
+<title>登录</title>
 <!-- Custom Theme files -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -36,14 +36,14 @@
 		<div class="container">
 			<div class="header-left">
 				<ul> 
-					<li><a href="account.html">ACCOUNT</a></li>
+					<li><a href="account.html">账户</a></li>
 					<li class="login" >
-						<div id="loginContainer"><a href="#" id="loginButton"><span>LOGIN</span></a>
+						<div id="loginContainer"><a href="#" id="loginButton"><span>登录</span></a>
 						    <div id="loginBox">                
 						        <form id="loginForm">
 									<fieldset id="body">
 										<fieldset>
-											<label for="email">Email Address</label>
+											<label for="email">邮箱</label>
 											<input type="text" name="email" id="email">
 										</fieldset>
 										<fieldset>
@@ -61,17 +61,17 @@
 				</ul>
 			</div>
 			<div class="logo">
-				<a href="index.html"> <img src="images/logo.png" alt=""/></a>
+				<a href="home.html"> <img src="images/logo.png" alt=""/></a>
 			</div>
 			<div class="top-nav">
 				<span class="menu"> <img src="images/menu.png" alt=""/> </span>
 				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>					
-					<li><a href="gallery.html">Gallery</a></li>
-					<li><a href="news.html">News</a></li>
-					<li><a href="codes.html">Codes</a></li>
-					<li><a href="contact.html">Contact</a></li>
+					<li><a href="home.html">主页</a></li>
+					<li><a href="about.html">关于我们</a></li>					
+					<li><a href="gallery.html">团队介绍</a></li>
+					<li><a href="news.html">公司新闻</a></li>
+					<li><a href="codes.html">案例</a></li>
+					<li><a href="contact.html">联系我们</a></li>
 				</ul>
 				<!-- script-for-menu -->
 				<script>					
@@ -110,80 +110,81 @@
 	<div class="account">
 		<div class="container">		
 			<div class="account-left">
-				<h1>new user ? <span> create an account </span></h1>
+				<h1>新用户 <span> 创建账号 </span></h1>
 				<!-- Form -->
 				<div class="registration_form">
 					<form id="registration_form">
 						<div>
 							<label>
-								<input placeholder="first name" type="text" tabindex="1">
+								<input placeholder="姓" type="text" tabindex="1">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="last name" type="text" tabindex="2">
+								<input placeholder="名" type="text" tabindex="2">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="email address" type="email" tabindex="3">
+								<input placeholder="邮箱" type="email" tabindex="3">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="Mobile" type="text" tabindex="3">
+								<input placeholder="手机号码" type="text" tabindex="3">
 							</label>
 						</div>					
 							<div class="sky_form1">
 								<ul>
-									<li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>Male</label></li>
-									<li><label class="radio"><input type="radio" name="radio"><i></i>Female</label></li>
+									<li><label class="radio left"><input type="radio" name="radio" checked=""><i></i>男</label></li>
+									<li><label class="radio"><input type="radio" name="radio"><i></i>女</label></li>
 									<div class="clearfix"> </div>
 								</ul>
 							</div>					
 						<div>
 							<label>
-								<input placeholder="password" type="password" tabindex="4">
+								<input placeholder="密码" type="password" tabindex="4">
 							</label>
 						</div>						
 						<div>
 							<label>
-								<input placeholder="retype password" type="password" tabindex="4">
+								<input placeholder="验证密码" type="password" tabindex="4">
 							</label>
 						</div>	
 						<div>
-							<input type="submit" value="create an account" id="register-submit">
+							<input type="submit" value="创建账号" id="register-submit">
 						</div>
 						<div class="sky-form">
-							<label class="checkbox"><input type="checkbox" name="checkbox" ><i>i agree to example.com &nbsp;<a class="terms" href="#"> terms of service</a></i> </label>
+							<label class="checkbox"><input type="checkbox" name="checkbox" ><i>我同意本站协议 &nbsp;<a class="terms" href="#"> terms of service</a></i> </label>
 						</div>
 					</form>
 					<!-- /Form -->
 				</div>
 			</div>
 			<div class="account-left">
-				<h2>existing user</h2>
+				<h2>邮箱</h2>
 				<div class="registration_form">
 					<!-- Form -->
 					<form id="registration_form">
 						<div>
 							<label>
-								<input placeholder="email" type="email" tabindex="3">
+								<input placeholder="邮箱" type="email" tabindex="3">
 							</label>
 						</div>
 						<div>
 							<label>
-								<input placeholder="password" type="password" tabindex="4">
+								<input placeholder="密码" type="password" tabindex="4">
 							</label>
 						</div>						
 						<div>
 							<input type="submit" value="sign in" id="register-submit">
 						</div>
 						<div class="forget">
-							<a href="#">forgot your password</a>
+							<a href="#">忘记密码</a>
 						</div>
 					</form>
 					<!-- /Form -->
+					<div class=""></div>
 				</div>
 			</div>
 			<div class="clearfix"> </div>
@@ -193,7 +194,6 @@
 	<div class="footer">
 		<div class="container">
 			<div class="footer-left">
-				<p>Copyright &copy; 2015.Company name All rights reserved.<a target="_blank" href="http://h2design.taobao.com/">氢设计</a></p>
 			</div>
 			<div class="social-icons">
 				<ul>
